@@ -1,9 +1,2 @@
 #!/bin/bash
 printf "%s\n" {a..z}{a..z} | grep -v "oo"
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
