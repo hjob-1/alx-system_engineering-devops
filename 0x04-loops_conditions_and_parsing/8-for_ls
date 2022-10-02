@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# displays content of the current directory in a list format
+# print file names without the number prefix
 
-for i in *; do
-	echo "$i" | cut -d '-' -f2
+for file_name in *
+do
+	echo "$file_name" | cut -d "-" -f2-
 done

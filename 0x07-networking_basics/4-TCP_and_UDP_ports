@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# This script displays listening ports
-# The flag -l tells netstat to print all listening sockets
-#+ -p enables printing of application/program name listening on the port
+# This bash script displays listening ports
+# That only shows listening sockets
+# That shows the PID and name of the program to which each belongs
 
-netstat -lp
+sudo netstat -1p
